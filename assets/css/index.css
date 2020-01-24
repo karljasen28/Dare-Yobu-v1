@@ -1,0 +1,246 @@
+body{
+    font-family: "Notos Sans JP", sans-serif;
+    margin: 0;
+}
+
+.navbar-brand{
+    font-size: 35px;
+}
+
+.scrolled{
+    background-color: white;
+    color: #000000 !important;
+    transition: 0.8s;
+}
+
+.scrolled > .text-light{        
+    color: #000000 !important;        
+}
+
+.scrolled .navbar-brand {
+    color: #FF7F50 !important;
+}
+
+.scrolled .navbar-nav .nav-item .nav-link {
+    color: #212529 !important;
+}
+
+.scrolled .navbar-nav .navbar-brand{
+    font-style: uppercase;
+}
+
+.active{
+    border-bottom: 3px solid #FF7F50;
+}
+
+
+header{
+    background-image: url("../../images/parallax-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    /* padding-bottom: 50vh; */
+}
+
+.main-content{
+    float: right;
+    height: inherit;
+    width: inherit;
+    margin-right: 50px;
+}
+
+.main-content .container{
+    margin-top: 40%;
+}
+
+.main-content h1{
+    font-weight: bold;
+    font-size: 50px;
+    color: #fff;
+}
+
+.main-content p {
+    font-size: 20px;
+    color: #fff;
+}
+
+#about{
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    margin-left: 50px;
+}
+
+#about h1{
+    color: #FF7F50;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#about p{
+    font-size: 20px;
+}
+
+#service{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+#service img{
+    width: 180px;
+}
+
+#service img:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+#service p{
+    font-size: 20px;
+}
+
+.btn-manual{
+    background: white;
+    color: #FF7F50;
+    padding: 15px 40px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.btn-manual:hover{
+    color: black;
+}
+
+
+#feature{
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
+#feature h1{
+    color: #FF7F50;
+}
+
+#feature h3{
+    color: #FF7F50;
+}
+
+.mobile-header{
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+#mobile{
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+
+.item img{
+    max-width: 200px;
+    align-items: center;margin: 0 auto;
+}
+.owl-carousel .owl-state-outer .owl-stage .owl-item .item{
+    
+    background: #495aff;
+    max-width: 220px;
+}
+
+.navbar-toggler{
+    border: 1px solid black;
+}
+
+.owl-item.active{
+    border-bottom: none;
+}
+
+footer{
+    background-color: #333333;
+    color: #fff;
+}
+
+@media screen and (max-width: 414px) {
+    header{
+        height: 568px;
+        background-size: cover;
+        background-position-x: -125px;
+    }
+
+    .main-content{
+        margin-top: 20%;
+    }
+
+    .main-content h1{
+        font-size: 20px;
+    }
+
+    .main-content p{
+        font-size: 14px;
+    }
+
+
+    #about{
+        margin-left: 0;
+    }
+
+    .navbar-brand{
+        font-size: 22px;
+        color: #FF7F50 !important;
+    }
+
+    .navbar-nav a{
+        color: black !important;
+    }
+
+    .navbar-light{
+        background-color: white;
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 768px) {
+    .main-content{
+        margin-top: -30px;
+        margin-right: 10px;
+    }
+
+    .main-content h1{
+        font-size: 28px;
+    }
+
+    .main-content p{
+        font-size: 14px;
+    }
+
+    .navbar-brand{
+        font-size: 22px;
+        color: #FF7F50 !important;
+    }
+
+    .navbar-nav a{
+        color: black !important;
+    }
+
+    .navbar-light{
+        background-color: white;
+    }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .main-content{
+        margin-top: -10px;
+        margin-right: 10px;
+    }
+
+    .main-content h1{
+        font-size: 35px;
+    }
+
+    .main-content p{
+        font-size: 18px;
+    }
+
+}

@@ -1,0 +1,22 @@
+body{
+    /* background-color: #FF7F50; */
+    background-color: #dddddd;
+    margin: 0;
+    font-family: "Notos Sans JP", sans-serif;
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 12%;
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 22%;
+    border-radius: 10px;
+}
+
+.btn{
+    background-color: #FF7F50;
+    border: none;
+}
